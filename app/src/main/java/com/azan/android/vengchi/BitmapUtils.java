@@ -39,15 +39,15 @@ import java.util.Locale;
 
 class BitmapUtils {
 
-    private static final String FILE_PROVIDER_AUTHORITY = "com.example.android.fileprovider";
+    private static final String FILE_PROVIDER_AUTHORITY = "com.azan.android.fileprovider";
 
 
     /**
-     * Resamples the captured photo to fit the screen for better memory usage.
+     * Re-samples the captured photo to fit the screen for better memory usage.
      *
      * @param context   The application context.
-     * @param imagePath The path of the photo to be resampled.
-     * @return The resampled bitmap
+     * @param imagePath The path of the photo to be re-sampled.
+     * @return The re-sampled bitmap
      */
     static Bitmap resamplePic(Context context, String imagePath) {
 
